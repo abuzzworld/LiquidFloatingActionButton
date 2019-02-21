@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "LiquidFloatingActionButton"
-  s.version          = "2.0.0"
+  s.version          = "2.0.1"
   s.summary          = "Material Design Floating Action Button in liquid state"
 
 # This description is used to generate tags and improve search results.
@@ -20,14 +20,14 @@ Pod::Spec.new do |s|
                       Material Design Floating Action Button in liquid state inspired by http://www.materialup.com/posts/material-in-a-liquid-state
                        DESC
 
-  s.homepage         = "https://github.com/yoavlt/LiquidFloatingActionButton"
+  s.homepage         = "https://github.com/abuzzworld/LiquidFloatingActionButton"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Takuma Yoshida" => "yoa.jmpr.w@gmail.com" }
-  s.source           = { :git => "https://github.com/yoavlt/LiquidFloatingActionButton.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/abuzzworld/LiquidFloatingActionButton.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '9.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
